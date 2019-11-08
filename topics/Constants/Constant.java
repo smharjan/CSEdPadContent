@@ -11,12 +11,12 @@ public class Constant {
     public static void main(String args[]) {
     
      /**
-    @comment(We declare a double variable which stores the value of PI. We store it as final since in java constants are declared as final.)
+    @comment (We declare a double variable which stores the value of PI. We store it as final since in java constants are declared as final.)
     */
         final double PI =3.1416;  
     
      /**
-    @comment(We print out the PI value.)
+    @comment (We print out the PI value.)
     */     
         System.out.println(PI);
     
