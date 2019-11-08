@@ -11,22 +11,22 @@ public class Constant2 {
     public static void main(String args[]) {
         
         /**
-          @comment(We declare local final variable PI which stays fixed every time and gives error if changed..)
+          @comment (We declare local final variable PI which stays fixed every time and gives error if changed..)
          */
         final double PI = 3.1416;
         
         /**
-          @comment(We define radius of the circle as integer value.)
+          @comment (We define radius of the circle as integer value.)
          */
         int radius = 5;
         
         /**
-          @comment(We define formula for area of the circle.)
+          @comment (We define formula for area of the circle.)
          */
         double Area_of_Circle = PI * Math.pow(radius, 2);
         
         /**
-          @comment(We print out the area of the circle.)
+          @comment (We print out the area of the circle.)
          */
         System.out.println(Area_of_Circle); // Prints area of a circle.
         
