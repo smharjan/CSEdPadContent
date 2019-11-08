@@ -3,8 +3,7 @@
   @author(Hasan Mashrique)
   @topic(NestedSwitchStatement)
   @title(CourseSelect_NestedSwitch)
-  @goalDescription(Construct a program that uses nested switch statements 
-  to determine courses)
+  @goalDescription(Construct a program that uses nested switch statements to determine courses)
   @source()
  */
 
