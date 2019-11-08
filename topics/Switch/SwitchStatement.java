@@ -1,4 +1,3 @@
-package javapedagogy;
 
 /**
   @author(Hasan Mashrique)
