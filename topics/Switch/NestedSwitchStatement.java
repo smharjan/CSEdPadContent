@@ -23,7 +23,7 @@ public class NestedSwitchStatement {
          */
         switch (year) {
             /**
-             @comment(If year equals 1, then it begins execution on the next
+             @comment (If year equals 1, then it begins execution on the next
              line, in this case the print statement.)
              */
             case 1:
