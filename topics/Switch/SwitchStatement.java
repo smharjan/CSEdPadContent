@@ -12,32 +12,32 @@ public class SwitchStatement {
     public static void main(String args[]) {
         
         /**
-          @comment(We define day value for switch statement check.)
+          @comment (We define day value for switch statement check.)
          */
         int day = 7;    // Try changing the day value to see how the switch statement works.
         
         /**
-          @comment(Start of switch statement which checks the day value to switch to different cases.)
+          @comment (Start of switch statement which checks the day value to switch to different cases.)
          */
         switch (day) {
             /**
-              @comment(If day equals 1, then it begins execution on the next line, in this case the print statement.)
+              @comment (If day equals 1, then it begins execution on the next line, in this case the print statement.)
              */
             case 1:
                 System.out.println("Monday");
                 /**
-                 @comment( After the print statement executes,break command causes execution to jump to the end of switch block. If this
+                 @comment (After the print statement executes,break command causes execution to jump to the end of switch block. If this
                  break was missing, it would execute every case block.)
                  */
                 break;
 
             /**
-             @comment(If day equals 2, then it begins execution on the next line, in this case the print statement.)
+             @comment (If day equals 2, then it begins execution on the next line, in this case the print statement.)
              */
             case 2:
                 System.out.println("Tuesday");
                 /**
-                 @comment( After the print statement executes,break command causes execution to jump to the end of switch block. If this
+                 @comment (After the print statement executes,break command causes execution to jump to the end of switch block. If this
                   break was missing, it would execute every case block.)
                  */
                 break;
@@ -56,17 +56,17 @@ public class SwitchStatement {
                 break;
             
              /**
-              @comment(Since day equals 7, it begins executing the next line and prints out "Sunday".)
+              @comment (Since day equals 7, it begins executing the next line and prints out "Sunday".)
              */
             case 7:
                 System.out.println("Sunday");
                 /**
-                  @comment(After executing, break command takes the program to the end of switch statement.)
+                  @comment (After executing, break command takes the program to the end of switch statement.)
                  */
                 break;
                 
              /**
-              @comment(In the scenario where no cases matches for day value,the default statement is executed and it prints out "Day not
+              @comment (In the scenario where no cases matches for day value,the default statement is executed and it prints out "Day not
               Matched".)
              */
             default:
