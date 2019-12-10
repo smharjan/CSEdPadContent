@@ -28,7 +28,7 @@ public class Puppy {
 
     public static void main(String[] args) {
 
-        //step 1 : Create Object */
+        //step 1 : Create Object 
         Puppy myPuppy = new Puppy("tommy");
 
         //step 2 :  Call class method to set puppy's age 
