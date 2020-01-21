@@ -6,6 +6,7 @@
  @goalDescription (demonstrate working of ArrayList in java)
  @source (https://www.tutorialspoint.com/java/java_arraylist_class.htm)
  @output ([BMW, Toyota, Nissan, Ford, Mazda])
+ @question("1. What is the output of the code? 2. What is the output of the code at line 25? )
 */
 import java.util.*;
 public class ArrayListEx1{
