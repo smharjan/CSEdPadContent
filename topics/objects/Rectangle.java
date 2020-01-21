@@ -8,38 +8,39 @@
     height : 8.0
     width : 12.0
  )
+ @question("1. What is the final output of the code? 2. What does line 36 do? 3. What does line 39 do? )
 */
 public class Rectangle {
-    private double height;
+	private double height;
 	private double width;
 	
 	public double getHeight(){
 	    return height; 
 	}
-	
+
 	public double getWidth(){
 	    return width; 
 	}
 	public Rectangle(double height, double width){
-       this.height = height;
-       this.width = width;
+	this.height = height;
+	this.width = width;
 	}
- 	public void magnify (int ratio) {
-  	    height = height * ratio;
-        width = width * ratio;
+	public void magnify (int ratio) {
+	    height = height * ratio;
+	width = width * ratio;
 	}
-	
-	
+
+
 	public static void main(String[] args) {
-	    //step 1 : Create Object 
+		//step 1 : Create Object 
 		Rectangle myBox = new Rectangle(4, 6);
-		
+
 		//step 2 :  Call class method magnify that alters value of height and width
-        myBox.magnify(2);
-        
-        // step 3: Access instance variables
-        System.out.println("height : "+myBox.getHeight());
-        System.out.println("width : "+myBox.width);
-    }
+		myBox.magnify(2);
+
+		// step 3: Access instance variables
+		System.out.println("height : "+myBox.getHeight());
+		System.out.println("width : "+myBox.width);
+	}
 
 }
