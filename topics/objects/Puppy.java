@@ -8,6 +8,7 @@
      Puppy's name :tommy
      Puppy's age is :2
  )
+ @question("1. What is the output of the code? 2. What does line 35 do? 3. WHat does line 39 do? )
 */
 public class Puppy {
     int puppyAge;
