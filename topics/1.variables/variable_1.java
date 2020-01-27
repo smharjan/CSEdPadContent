@@ -4,6 +4,7 @@
 @title(MyProgram)
 @goalDescription(Decalre variables and assign values.)
 @source()
+@question("1. What is the output of the code? 2.What are the types of vairables used here? )
 */
 public class MyProgram {
   public static void main(String[] args) {

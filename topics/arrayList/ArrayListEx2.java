@@ -5,6 +5,8 @@
  @goalDescription (demonstrate working of ArrayList in java)
  @source (https://www.geeksforgeeks.org/arraylist-in-java/)
  @output (0 10 2 3 5)
+ @question("1. What is the output of the code? 2. What is the value of myNum before line 22 is executed?
+ 3. What is the value of myNum after line 22 is executed? 4. What is the value of myNum when line 26 is executed?)
 */
 import java.util.*;
 public class ArrayListEx2 {
