@@ -36,8 +36,8 @@ public class BasicArrayExample3{
 		execution_detail: The length of myNumber is 10. The loop starts at for i = 0 and loops until i=9. 
 		For each value of i, the value of myNumber at index postion i is printed. The program prints all the value of array myNumber.
 		*/
-		for(int i = 0; i < myNumber.length; i++) { /*@stm_comment(loop 10 times, start at 0 and iterate until i is less than 10*/		
-			System.out.println(myNumber[i]); /*@stm_comment(Insert the value of i for arry myNumber at index postion i*/			
+		for(int i = 0; i < myNumber.length; i++) { /*@stm_comment: loop 10 times, start at 0 and iterate until i is less than 10*/		
+			System.out.println(myNumber[i]); /*@stm_comment: Insert the value of i for arry myNumber at index postion i*/			
 		}
 	}
 }
