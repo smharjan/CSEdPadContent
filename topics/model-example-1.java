@@ -1,7 +1,7 @@
 /**
  @author (Lasang Tamang)
- @chapter (Arrays)
- @topics (declaring array variables, Adding element of array, processing array)
+ @topics (Arrays)
+ @lerningGoal (declaring array variables, Adding element of array, processing array)
  @goalDescription(This program demonstrates how to create array, intialize them and print the values of arrays)
  @source (Here we keep the URL if there exist any source )
  @output (0,1,2,3,4,5,6,7,8,9)
