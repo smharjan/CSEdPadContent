@@ -17,9 +17,9 @@ public class BasicArrayExample3{
 		
 		/*
 		logical_step_2: Creates array mynumber of size 10)
-		execution_detail: Creates an array of size 10 of integer type.
+		execution_detail: The value of size is 10. An array of size 10 is created. The array is of type integer.
 		*/
-		int[] myNumber = new int[10];	
+		int[] myNumber = new int[size];	
 		
 		/*
 		logical_step_3: Add array elements 0 to 9 in array myNumber
