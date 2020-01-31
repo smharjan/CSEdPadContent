@@ -19,13 +19,13 @@ public class BasicArrayExample3{
 		
 		/*
 		logical_step_2: Add array elements 0 to 9 in array myNumber
-		Questions: What is the length of array? how many times does the loop executes for?
-		What are the final values of myNumber ?
+		Questions_1: What is the length of array? 
+		question_2: how many times does the loop executes for?
+		question_3What are the final values of myNumber ?
 		
-		execution_detail: 
-		The length of array myNumber is 10.
-		The loop executes for 9 times.
-		The new values of array myNumber is 0,1,2,3,4,5,6,7,8,9
+		answer_1The length of array myNumber is 10.
+		answer_2:The loop executes for 9 times.
+		answer_3:The new values of array myNumber is 0,1,2,3,4,5,6,7,8,9
 		*/
 		
 		for(int i = 0; i < myNumber.length; i++) {/*@stm_comment: loop 10 times, start at 0 and iterate until i is less than 10*/		
