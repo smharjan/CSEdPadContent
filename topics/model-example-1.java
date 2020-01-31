@@ -15,11 +15,6 @@ public class BasicArrayExample3{
 		*/
 		int size = 10;
 		
-		/*
-		logical_step_2: Creates array mynumber of size 10)
-		execution_detail: The value of size is 10. An array of size 10 is created. The array is of type integer.
-		*/
-		int[] myNumber = new int[size];	
 		
 		/*
 		logical_step_3: Add array elements 0 to 9 in array myNumber
@@ -27,6 +22,7 @@ public class BasicArrayExample3{
 		For each value of i, array mynumber is intialized to value of  i.The new values of array myNumber
 		is 0,1,2,3,4,5,6,7,8,9
 		*/
+		int[] myNumber = new int[size];	
 		for(int i = 0; i < myNumber.length; i++) {/*@stm_comment: loop 10 times, start at 0 and iterate until i is less than 10*/		
 			myNumber[i] = i;/*@stm_comment: Insert the value of i for arry myNumber at index postion i*/			
 		}				
