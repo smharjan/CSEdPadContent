@@ -40,7 +40,7 @@ public class BasicArrayExample3{
 		}
 
 		/*
-		logical_step_3: Display each values of the array myNumber
+		logical_step_3: Display the values in the array myNumber
 		question_1: Do the for loop iterates over each value of array?
 		answer_1: Yes.
 		question_1: Once they iterates over each value of array myNumber, what does the it do inside for loop?
@@ -50,7 +50,7 @@ public class BasicArrayExample3{
 		*/
 		/*@stm_comment: process or iterates over each element of the array myNumber  */
 		for(int i = 0; i < myNumber.length; i++) { 
-			/*@stm_comment: myNumber[i] access the value of myNumber at index  position  i*/
+			/*@stm_comment: myNumber[i] accesses the value of myNumber at index  position  i*/
 			System.out.println(myNumber[i]); 
 		}
 	}
