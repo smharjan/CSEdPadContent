@@ -1,10 +1,19 @@
 /**
- @author (Lasang Tamang)
- @topics (Arrays)
- @lerningGoal (declaring array variables, Adding element of array, processing array)
- @goalDescription(This program demonstrates how to create array, intialize them and print the values of arrays)
- @source (Here we keep the URL if there exist any source )
- @output (0,1,2,3,4,5,6,7,8,9)
+ author: Lasang Tamang
+ topics: Arrays
+ subtopics: declaring array variables, Adding element of array, processing array
+ goalDescription: This program demonstrates how to create array, intialize them and print the values of arrays
+ source: Here we keep the URL if there exist any source 
+ output: 0
+ 	 1
+	 2
+	 3
+	 4
+	 5
+	 6
+	 7
+	 8
+	 9
 */
 public class BasicArrayExample3{
 
@@ -21,7 +30,9 @@ public class BasicArrayExample3{
 	
 		*/
 		int size = 10;
-		int[] myNumber = new int[size]; /*@stm_comment: declare an array variable called myNumber of type integer and size 10 and allocate memory for it*/
+		/*@stm_comment: declare an array variable called myNumber of 
+		type integer and size 10 and allocate memory for it*/
+		int[] myNumber = new int[size]; 
 
 		/*
 		logical_step_2: Assign the values from 1 to 10 to the elements of array myNumber
@@ -48,7 +59,8 @@ public class BasicArrayExample3{
 		question_3: What does the following code block do?
 		answer_3: Display each values of the array myNumber
 		*/
-		/*@stm_comment: process or iterates over each element of the array myNumber  */
+		/*@stm_comment: Finds the length of arrray myNumber and the loop 
+		process or iterates over each element of the array myNumber  */
 		for(int i = 0; i < myNumber.length; i++) { 
 			/*@stm_comment: myNumber[i] accesses the value of myNumber at index  position  i*/
 			System.out.println(myNumber[i]); 
