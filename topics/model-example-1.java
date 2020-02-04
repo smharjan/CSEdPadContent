@@ -36,17 +36,17 @@ public class BasicArrayExample3{
 
 		/*
 		logical_step_2: Assign the values from 1 to 10 to the elements of array myNumber
-		question_1: What is the start and stopping codnition for for loop?
+		question_1: What is the start and stopping codition for loop?
 		answer_1: For loop starts at i = 0 and stops when i<10.
-		question_2: waht does the code inside for loop doing?
-		answer_2: The code assigns each value of i during iteration to array myNumber at index postion i
+		question_2: What does the code inside for loop doing?
+		answer_2: The code assigns each value of i during iteration to array myNumber at index position i
 		question_3: What does the following code block do?
 		answer_3: Assign the values from 1 to 10 to the elements of array myNumber
 		*/
 		/*stm_comment: the size of the array is given by myNumber.length which is 10*/
 		for(int i = 0; i < myNumber.length; i++) { 
 			/*stm_comment: the i-th element of the array myNumber which 
-			is denoted my myNumber[i] is assigned the value of i*/
+			is denoted by myNumber[i] is assigned the value of i*/
 			myNumber[i] = i; 
 		}
 
@@ -54,12 +54,12 @@ public class BasicArrayExample3{
 		logical_step_3: Display the values in the array myNumber
 		question_1: Do the for loop iterates over each value of array?
 		answer_1: Yes.
-		question_1: Once they iterates over each value of array myNumber, what does the it do inside for loop?
+		question_1: Once they iterate over each value of array myNumber, what does the it do inside for loop?
 		answer_1: for each value of i, it prints the value of myNumber at index position i
 		question_3: What does the following code block do?
 		answer_3: Display each values of the array myNumber
 		*/
-		/*stm_comment: Finds the length of arrray myNumber and the loop 
+		/*stm_comment: Finds the length of array myNumber and the loop 
 		process or iterates over each element of the array myNumber  */
 		for(int i = 0; i < myNumber.length; i++) { 
 			/*stm_comment: myNumber[i] accesses the value of myNumber at index  position  i*/
