@@ -59,7 +59,7 @@ public class BasicArrayExample3{
 		question_3: What does the following code block do?
 		answer_3: Display each values of the array myNumber
 		*/
-		/*@stm_comment: Finds the length of arrray myNumber and the loop 
+		/*stm_comment: Finds the length of arrray myNumber and the loop 
 		process or iterates over each element of the array myNumber  */
 		for(int i = 0; i < myNumber.length; i++) { 
 			/*stm_comment: myNumber[i] accesses the value of myNumber at index  position  i*/
