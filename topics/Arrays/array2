@@ -1,23 +1,69 @@
-// Java program to demonstrate  
-// passing of array to method 
+author:Nisrine Ait Khayi
+topics: Arrays
+subtopics: Access the elements of the array and processing them
+goalDescription : This program demonstrate how to declare an array and assign values to it , then iterate over the array and print
+                  the sum of all the arrays's values.
+source: NA
+output: 15
+
+
   
 class Test 
 {     
     // Driver method 
     public static void main(String args[])  
     { 
+       /* logical_step1: Declare an array variable arr with type integer and assign values to it
+          question1: what is the name and the type of the declared array?
+          answer1: arr is the declared array variable of integer values
+          question2: what is the size of the declared array?
+          answer2: the array arr has assigned 5 values.
+        */
+        
+        /*stmt_comment: declare an array of integers and assigned the following values to it */
         int arr[] = {3, 1, 2, 5, 4}; 
           
-        // passing array to method m1 
-        sum(arr); 
+       /*logical_step2: Pass the array arr to the method sum
+         question1: What is the initial value of the local variable sum?
+         answer1: the sum is initiliazed with the value 0.
+         question2:what is the value of length variable inside the for loop?
+         answer2:  5
+         question3: what is the maximun value of variable  i in the for loop ?
+         answer3:4
+         question4: what are the number of iterations of the for loop?
+         answer5: 5
+         question5: what is the value of the sum variable after 3 iterations?
+         answer5 : 6
+         */
+         
+         /*stmt_comment: call the sum function with arr as an argument */
+         sum(arr); 
       
     } 
-  
-    public static void sum(int[] arr)  
-    { 
-        // getting sum of array values 
-        int sum = 0; 
-          
+    
+   
+     public int sum(int[] arr)  
+     { 
+        /* logical_step1: declare a variable sum of type integer and initialize it to 0.
+         question1: Does the value of sum change after the execution of the for loop ?
+         answer1: yes
+         question2:is there an exception?
+         answer2: in case the passed array is empty, the value of sum remains 0.        
+       */
+       
+       /*stmt_comment: declare an integer variable sum and initialize it to 0*/   
+        int sum = 0;
+        
+        /*logical_step2: iterate over the array, calculate the sum of its values and print it
+          question1: what is the number of the iterations of the for loop?
+          answer1 : arr.length
+          question2:why the value of i is less than the length of the array?
+          answer2: because i starts at 0.
+          question3: does the for loop execute if the array is empty and why?
+          answer3: no. because the post condition of the loop will be incorrect
+         */
+         
+        /*stmt_comment: iterate over the array's values and sum them up*/
         for (int i = 0; i < arr.length; i++) 
             sum+=arr[i]; 
           
