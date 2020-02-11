@@ -2,7 +2,7 @@
  @author (Jeevan Chapagain)
  @topic (Strings)
  @title (StringExample1)
- @goalDescription (demonstrate working of Strings in java)
+ @goalDescription (demonstrate working of String concatenation in java)
  @source ()
  @output (David Beckham)
  @question("1. What is the output of the code?") 
