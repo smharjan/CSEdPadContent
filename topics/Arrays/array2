@@ -23,50 +23,33 @@ class Test
         /*stmt_comment: declare an array of integers and assigned the following values to it */
         int arr[] = {3, 1, 2, 5, 4}; 
           
-       /*logical_step2: Pass the array arr to the method sum
-         question1: What is the initial value of the local variable sum?
-         answer1: the sum is initiliazed with the value 0.
-         question2:what is the value of length variable inside the for loop?
-         answer2:  5
-         question3: what is the maximun value of variable  i in the for loop ?
-         answer3:4
-         question4: what are the number of iterations of the for loop?
-         answer5: 5
-         question5: what is the value of the sum variable after 3 iterations?
-         answer5 : 6
-         */
-         
-         /*stmt_comment: call the sum function with arr as an argument */
-         sum(arr); 
-      
-    } 
-    
-   
-     public int sum(int[] arr)  
-     { 
-        /* logical_step1: declare a variable sum of type integer and initialize it to 0.
+            
+         /* logical_step2: declare a variable sum of type integer and initialize it to 0.
          question1: Does the value of sum change after the execution of the for loop ?
          answer1: yes
          question2:is there an exception?
          answer2: in case the passed array is empty, the value of sum remains 0.        
-       */
-       
-       /*stmt_comment: declare an integer variable sum and initialize it to 0*/   
-        int sum = 0;
-        
-        /*logical_step2: iterate over the array, calculate the sum of its values and print it
+       */      
+         
+         /*stmt_comment: initialize the variable to 0 */
+         int sum=0 
+         
+          /*logical_step3: iterate over the array, calculate the sum of its values and print it
           question1: what is the number of the iterations of the for loop?
-          answer1 : arr.length
+          answer1 : 5
           question2:why the value of i is less than the length of the array?
           answer2: because i starts at 0.
           question3: does the for loop execute if the array is empty and why?
           answer3: no. because the post condition of the loop will be incorrect
          */
-         
+           
         /*stmt_comment: iterate over the array's values and sum them up*/
         for (int i = 0; i < arr.length; i++) 
             sum+=arr[i]; 
           
         System.out.println("sum of array values : " + sum); 
+      
     } 
-} 
+    
+   
+    
