@@ -1,5 +1,5 @@
 /**
- * @author(Roya Hossesini)
+ * @author(Roya Hossesini, Kamil Akhuseyinoglu)
  * @topic(Objects)
  * @subtopics(Defining class, access object methods, modify object instance variables)
  * @goalDescrption(Construct a class that represents a point in the Euclidean plane. The class should contain data that represents the point’s integer coordinates (x,y). The class should also include getter and setter methods for accessing and changing the point's coordinates and a method to translate the point, i.e.,  shift the point's location by the specified amount.\\n\\nThe class PointTester1 instantiates an object from this class, sets the (x,y) coordinates of the point, and translates the point by the specified amount.)
