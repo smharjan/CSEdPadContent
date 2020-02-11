@@ -10,10 +10,11 @@
  */
 
 /**
- * @logicalStep(Define the class PointTester1 to demonstrate the creation and use of Point1 class instances.)
+ * @logicalStep(Define the class PointTester1 to demonstrate the creation of Point1 insstance and accessing Point1 methods.)
  */
 public class PointTester1 {
 	public static void main(String[] args) {
+
         /**
          * @statement_comment(This statement creates a Point1 object using the new keyword and empty parentheses. The variable point holds a reference to a Point1 object.)
          */
