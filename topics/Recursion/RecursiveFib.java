@@ -25,14 +25,13 @@ public class RecursiveFib{
     }
   }
   
-  /**
-     Computes a Fibonacci number
-     @param n an integer
-     @return the nth Fibonacci number
+  /*
+     logical_step_x: Define a function that computes a Fibonacci number taking integer param n and returning the nth Fibonacci number
   */
   public static long fib(int n){
-    //Recursion base case
+    //@stm_comment: the recursion base case is whenever n is either 1 or 2, where the result of fib() is 1
     if(n<=2) return 1;
+    //@stm_comment: the recursion base case is whenever n is either 1 or 2, where the result of fib() is 1
     else return fib(n-1) + fib(n-2);
   }
 }
