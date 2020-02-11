@@ -1,12 +1,14 @@
 package javapedagogy;
 
 /**
-  @author(Hasan Mashrique)
-  @topic(DoWhile)
-  @title(PrintValues_DoWhile)
-  @goalDescription(Print integer values using do while loop.)
-  @source()
- */
+ @author : Hasan Mashrique
+ @topics : DoWhile
+ @subtopics: declaring variables, Assigning variable value, printing variable using DoWhile loop.
+ @goalDescription:This program demonstrates how to declare a variable, assign a value to it and print its value using DoWhile
+ @source: Here we keep the URL if there exist any source 
+ @output : 8,9,10
+*/
+
 public class DoWhile {
 
     public static void main(String[] args) {
