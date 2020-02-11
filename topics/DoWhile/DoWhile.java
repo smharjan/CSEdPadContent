@@ -11,14 +11,29 @@ public class DoWhile {
 
     public static void main(String[] args) {
 
-         /**
-          @comment(We define integer value i.)
-         */    
+        /*
+        question_1: what variables are declared?
+        answer_1: an integer variable 'i' is declared.
+        question_2: what does the following code block do?
+        answer_2: It declares a integer variable and assigns a variable to it.
+        
+        */     
+
         int i = 8; // change values to > 10 and see what the codes prints.
-         
-        /**
-          @comment(Start of the do while loop which prints values up to 10.)
-         */    
+        
+        
+       /*
+        question_1: what does the code do inside the do while loop?
+        answer_1: It prints the value of i and increments its value by one every time.
+        question_2: When does the do while loop terminate?
+        answer_2: After each iteration, the loop checks for the terminating condition in the while 
+        bracket and terminates the loop if the condition does not match anymore.
+        question_3: what does the following code block do?
+        answer_3: 
+  
+        
+        */  
+
         do {
             System.out.println(i); //prints the value of i
             i++;
