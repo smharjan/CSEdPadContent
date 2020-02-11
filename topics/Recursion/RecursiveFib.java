@@ -2,7 +2,7 @@
  @author : Jordan Barria-Pineda
  @topics : Recursion
  @subtopics: recursive method calling, recursion base case
- @goalDescription:This program computes Fibonacci numbers using a recursive method
+ @goalDescription: This program computes Fibonacci numbers using a recursive method
  @source: Big Java Book (3rd edition), page 603 (only difference is that original input n was 50)
  @output : Enter n: 7
            fib(1)=1
