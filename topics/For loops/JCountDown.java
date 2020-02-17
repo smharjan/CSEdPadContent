@@ -3,7 +3,7 @@
  topic: For Loops
  title: JCountDown
  subTopic: getting familiar with for loop
- goalDescription: this program build a counter in for loop that counts from 10 to 1 in decreasing manner
+ goalDescription: this program builds a counter in for loop that counts from 10 to 1 in decreasing manner
  source: 
  output: counter = 10
          counter = 9
