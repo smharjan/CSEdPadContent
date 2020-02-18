@@ -18,6 +18,11 @@ class StringExample1 {
 	answer: It declares a string variable and assigns a value to it.
   	*/
    String s1 = "David";  
+	  /*stm_comment: declare a variable called s1 of 
+    type string and assign some value to it*/
+	  
+	  
+	  
 
    /*
 	question_1: what variables are declared?
@@ -26,7 +31,12 @@ class StringExample1 {
 	answer_1: It declares a string variable and assigns a value to it.
   	*/
 
-   String s2 = "Beckham";  
+   String s2 = "Beckham"; 
+	 /*stm_comment: declare a variable called s2 of 
+    type string and assign some value to it*/  
+	  
+	  
+	  
 
    /*
 	question_1: what variables are declared?
@@ -37,6 +47,9 @@ class StringExample1 {
   	*/
 
    String s3 = s1.concat(s2); 
+	   /*stm_comment: declare a variable called s3 of 
+    type string and concat s2 with s1*/
+	  
 
    /*
 	
@@ -45,6 +58,7 @@ class StringExample1 {
 	Beckham which will be printed.
   	*/
    System.out.println(s3); 
+	  /*stm_comment: printing out the result of the variable s3*/
 
   }
 }
