@@ -5,7 +5,6 @@
  @goalDescription (demonstrate working of String concatenation in java)
  @source ()
  @output (David Beckham)
- @question("1. What is the output of the code?") 
 
 **/
 
