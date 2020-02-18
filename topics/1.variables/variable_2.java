@@ -5,11 +5,11 @@
  goalDescription: Construct a program that stores the player information and display them.
  source: Memphis team created on own
  output: 1
-		Lasang
-		Nepal
-		2
-		Jeevan
-		Nepal
+	Lasang
+	Nepal
+	2
+	Jeevan
+	Nepal
  */
 
 public class Player { 
@@ -65,10 +65,10 @@ public class Player {
         
         /* 
         logical_step_step_4:Display 2 player information we stored
-		    logical_step_details: The program simply displays the value for each player that has been stroed.
-		    question_1: What does the following code block do?
-		    answer_1: Display 2 player information we stored
-		    */
+	logical_step_details: The program simply displays the value for each player that has been stroed.
+	question_1: What does the following code block do?
+	answer_1: Display 2 player information we stored
+	*/
         System.out.println(player1.id); 
         System.out.println(player1.name); 
         System.out.println(player1.country);
