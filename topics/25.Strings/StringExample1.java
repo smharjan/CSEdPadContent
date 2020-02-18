@@ -1,10 +1,10 @@
 /**
- @author (Jeevan Chapagain)
- @topic (Strings)
- @title (StringExample1)
- @goalDescription (demonstrate working of String concatenation in java)
- @source ()
- @output (David Beckham)
+ author (Jeevan Chapagain)
+ topic (Strings)
+ title (StringExample1)
+ goalDescription (demonstrate working of String concatenation in java)
+ source ()
+ @output David Beckham
 
 **/
 
