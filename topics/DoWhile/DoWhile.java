@@ -31,12 +31,11 @@ public class DoWhile {
         
        /*
         question_1: what does the code do inside the do while loop?
-        answer_1: It prints the value of i and increments its value by one every time.
+        answer_1: It prints the value of i and increments its value by one every time.It also increments value of variable count to keep track 
+        of the candy intake.
         question_2: When does the do while loop terminate?
         answer_2: After each iteration, the loop checks for the terminating condition in the while 
         bracket and terminates the loop if the condition does not match anymore.
-        question_3: what does the following code block do?
-        answer_3: It prints the value of 'i', increments its value by one until the terminating condition occurs.
         
         */  
 
@@ -47,8 +46,9 @@ public class DoWhile {
             count++;
             
             
-        } while (i <= 12); /*@stm_comment: if i is >10 , it will still print once since the condition is checked after the while execution once.*/
+        } while (i <= 12); /*@stm_comment: the loop breaks when the value of i becomes 13*/
         
+        /*@stm_comment: finally prints of the value of remaining candies to eat*/
         System.out.println("Candies left to eat: " + (count-1));
     }
 
