@@ -6,7 +6,7 @@
  @subtopics: declaring variables, Assigning variable value, printing variable using DoWhile loop.
  @goalDescription:This program demonstrates how to declare a variable, assign a value to it and print its value using DoWhile
  @source: Here we keep the URL if there exist any source 
- @output : 8,9,10
+ @output : 4
 */
 
 public class DoWhile {
@@ -16,7 +16,7 @@ public class DoWhile {
         /*
         logical_step_1: Declare variable and assign an initial value to check how many candy a child can have. 
         logical_step_details: First we declare a integer variable and a value to it. We also declare another variable to check how many more 
-        candy a child can have.
+        candy a child can have.(limit=12)
         question_1: what variables are declared?
         answer_1: an integer variable i to set how many candies is eaten and a count variable to check how many more it can have.
         question_2: what does the following code block do?
