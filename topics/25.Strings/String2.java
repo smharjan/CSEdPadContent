@@ -5,7 +5,7 @@ title(String2.java)
 goalDescrption(JAVA program to illustrate how strings are declared and calculate length of string using length method of string)
 source()
 output: String length of s1 is 26
-    String lenght of s2 is 30
+        String length of s2 is 30
 
  
 ***/
@@ -15,11 +15,12 @@ output: String length of s1 is 26
    public static void main(String[] args)
    {
       /*
-    logical_step_1: Declare a  string s1 
-    question_1: What is the value of the  s1  ?
-    answer_1: the value of the s1 is The University of Memphis
-    question_2: What will be the output of the program if you initialise the value of variable s1 to Hello?
-    answer_2: The program will output the string length of Hello.
+    logical_step_1: Declare a  string datatype
+    question_1: What is the data type of the variable s1 ?
+    answer_1: the data  type of the variable s is string.
+    question_2: How will you declare a string variable?
+    answer_2: we can declare string variable using the keyword string whose value must be surrounded by double quotes.
+
     */
     String s1="The University of Memphis"; 
     /*stm_comment: declare a variable called s1 of 

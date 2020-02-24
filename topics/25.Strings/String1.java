@@ -14,17 +14,17 @@ output I LOVE COMPUTER
    {
 
     /*
-    logical_step_1: Declare a  string 
-    question_1: What is the type of the variable s ?
-    answer_1: the type of the variable s is string.
-    question_2: How will you declare a string variable>
-    answer_2: we can declare string variable using the keyword string.
+    logical_step_1: Declare a  string datatype
+    question_1: What is the data type of the variable s ?
+    answer_1: the data  type of the variable s is string.
+    question_2: How will you declare a string variable?
+    answer_2: we can declare string variable using the keyword string whose value must be surrounded by double quotes.
 
   */
     
 
       String s = "I love computer";
-    /*stm_comment: declare a string variable  with the use of keyword String*/
+    /*stm_comment: declare a string data type  with the use of keyword String*/
       
 
 

@@ -11,17 +11,20 @@
 class StringExample1 {
 
   public static void main(String[] args) {
-    /*
-    logical_step_1: Declare a  string variable s1
-    question_1:How variable s1 is made of type string?  ?
-    answer_1: Variable s1 is made of type string by using the keyword String.
-    
+     /*
+    logical_step_1: Declare a  string datatype
+    question_1: What is the data type of the variable s1 ?
+    answer_1: the data  type of the variable s is string.
+    question_2: How will you declare a string variable?
+    answer_2: we can declare string variable using the keyword string whose value must be surrounded by double quotes.
     */
-   String s1 = "David";  
+
+
+    String s1 = "David";  
    /*stm_comment: declare a variable of type string using the keyword String.*/
    
 
-   String s2 = "Beckham";  
+    String s2 = "Beckham";  
 
    /*
   question_1: what does the following code block do?
@@ -31,7 +34,7 @@ class StringExample1 {
   answer_2: The result of s2.concat(s1) will be Beckham David.
     */
 
-   String s3 = s1.concat(s2); 
+    String s3 = s1.concat(s2); 
 
    /*
   
@@ -39,7 +42,6 @@ class StringExample1 {
   answer_1: It prints the result of the variable s3 where s1 and s2 are concatenatee sucha that s3 contains a value of David 
   Beckham which will be printed.
     */
-   System.out.println(s3); 
-
+    System.out.println(s3); 
   }
 }
