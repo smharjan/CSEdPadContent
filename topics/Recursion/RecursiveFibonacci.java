@@ -15,7 +15,7 @@ output : Enter n: 7
            fib(7)=13
 **/
 
-public class RecursiveFib{
+public class RecursiveFibonacci{
   public static void main(String[] args){
     Scanner in = new Scanner(System.in);
     System.out.print("Enter n: ");
@@ -33,7 +33,7 @@ public class RecursiveFib{
      /*
     logical_step_1: the recursion base case is whenever n is either 1 or 2, where the result of fib() is 1, which is the returned value of the function
     question_1: what case for recursive algorithms is this if statement representing?
-    answer_1: the recursive base case
+    answer_1: the base case
     */
     if(n<=2) return 1;
      /*
