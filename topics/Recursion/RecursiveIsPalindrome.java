@@ -34,8 +34,8 @@ public class RecursiveIsPalindrome(){
                 question_1: what type of case for recursive algorithms is this if statement representing?
                 answer_1: one of base cases
                 */
-                 if (str.charAt(0) != str.charAt(str.length() - 1)) {
-                     //stmt_code: Base case when this method knows to return false because the first and last characters do not match.
+                 //stmt_code: Base case when this method knows to return false because the first and last characters do not match.
+                 if (str.charAt(0) != str.charAt(str.length() - 1)){
                      return false;
                  }
                  /*
