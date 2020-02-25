@@ -32,8 +32,8 @@ public class Rectangle {
     logical_step_3: Define getter methods for height and width
 	question_1: What does the following code block do?
 	answer_1: Define getter and setter methods
-	question_1: What variables can be accessed?
-	answer_1: height and width
+	question_2: What variables can be accessed?
+	answer_2: height and width
 	*/
 
     public float getHeight() {
