@@ -3,13 +3,10 @@ This repository is for Java examples generated/collected for CSEdPad project.
 
 ## Assignment ( 2 examples each)
 
-- Lasang - Variables 
-- Nisrine - Expressions
+- Kamil- Variables + Expressions + Constants + Primitive Data Type)
 - Suraj - Input
-- Hasan - Constants
-- Jeevan - Primitive Data Types
 - Priti - Logical Operators
-- Zeyad - If
+- Jeevan - If
 - Zeyad - If-else
 - Scott - Switch
 - Vasile - While Loops
