@@ -3,6 +3,7 @@
  topics: Objects
  subtopics: Initalizing an object, accessing getter and setter
  goalDescription: This program shows how to create student object, and accessing getter and setter methods.
+ source: ()
  output: Student marks is 2.0
 */
 public class Student {
