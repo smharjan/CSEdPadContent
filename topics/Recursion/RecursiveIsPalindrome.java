@@ -20,9 +20,9 @@ public class RecursiveIsPalindrome(){
     
      public boolean isPalindrome(String str) {
             /*
-            logical_step_1: the recursion base case is whenever there is only one character on both sides, where the function checks if the two characters are the same or not
+            logical_step_1: the recursion base case that returns true when there is only one character left, where the function always return true
             question_1: what case for recursive algorithms is this if statement representing?
-            answer_1: the recursive "base case"
+            answer_1: one of the recursive "base case"
              */
              if (str.length() <= 1) {
                  //stm_comment: Base case when this method knows to return true.
@@ -30,19 +30,20 @@ public class RecursiveIsPalindrome(){
              }
              else{
                 /*
-                logical_step_2: the recursion base case is whenever there is only one character on both sides, where the function checks if the two characters are the same or not
+                logical_step_2: the recursion base case that returns false when the first and last characters do not match
                 question_1: what case for recursive algorithms is this if statement representing?
-                answer_1: the recursive "base case"
+                answer_1: one of the recursive "base case"
                 */
                  if (str.charAt(0) != str.charAt(str.length() - 1)) {
                      // Base case when this method knows to return false because the first and last characters do not match.
                      return false;
+                 }
                  /*
                 logical_step_3: the recursion base case is whenever there is only one character on both sides, where the function checks if the two characters are the same or not
                 question_1: what case for recursive algorithms is this if statement representing?
                 answer_1: the recursive "base case"
                 */
-                 }else {
+                 else{
                      // The first and last characters are equal so check if the shorter
                      // string--a simpler version of this problem--is a palindrome.
                      return isPalindrome(str.substring(1, str.length() - 1));
