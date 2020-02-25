@@ -19,11 +19,11 @@ public class RecursiveIsPalindrome(){
     } 
     
      public boolean isPalindrome(String str) {
-          /*
+            /*
             logical_step_1: the recursion base case is whenever there is only one character on both sides, where the function checks if the two characters are the same or not
             question_1: what case for recursive algorithms is this if statement representing?
             answer_1: the recursive "base case"
-           */
+             */
              if (str.length() <= 1) {
                  //stm_comment: Base case when this method knows to return true.
                  return true;
