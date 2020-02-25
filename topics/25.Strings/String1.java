@@ -14,41 +14,42 @@ output I LOVE COMPUTER
    {
 
     /*
-    logical_step_1: Declare a  variable mars
-    question_1: What is the value of the variable mars  ?
-    answer_1: the value of the variable mars is I love Computer
-    */
+    logical_step_1: Declare a  string datatype
+    question_1: What is the data type of the variable s ?
+    answer_1: the data  type of the variable s is string.
+    question_2: How will you declare a string variable?
+    answer_2: we can declare string variable using the keyword string whose value must be surrounded by double quotes.
+
+  */
     
 
-      String mars = "I love computer";
-    /*stm_comment: declare a variable called mars of 
-    type string and assign some value to it and allocate memory for it*/
+      String s = "I love computer";
+    /*stm_comment: declare a string data type  with the use of keyword String*/
       
 
 
     /*
-    logical_step_1: Converting the variable mars to uppercase..
-    logical_step_details : The variable mars is being converted to uppercase letters using the method toUpperCase.
-    question_1: What is the output  mars.toUpperCase() ?
-    answer_1: the output of  mars.toUpperCase() is I LOVE COMPUTER
+    logical_step_1: Converting the variable s to uppercase..
+    logical_step_details : The variable s is being converted to uppercase letters using the method toUpperCase.
+    question_1: What is the output  s.toUpperCase() ?
+    answer_1: the output of  s.toUpperCase() is I LOVE COMPUTER
     */
 
-      System.out.println(mars.toUpperCase());
+      System.out.println(s.toUpperCase());
       /*stm_comment: converting the string variable to upper case using toUpperCase method and printing out the result.*/
 
 
 
      /*
-    logical_step_2: Converting the variable mars to lowercase.
-    logical_step_details : The variable mars is being converted to lowercase letters using the method toLowerCase.
-    question_1: What is the output  mars.toLowerCase() ?
-    answer_1: the output of  mars.toLowerCase() is i love computer
+    logical_step_2: Converting the variable s to lowercase.
+    logical_step_details : The variable s is being converted to lowercase letters using the method toLowerCase.
+    question_1: What is the output  s.toLowerCase() ?
+    answer_1: the output of  s.toLowerCase() is i love computer
     */
 
-      System.out.println(mars.toLowerCase());   
+      System.out.println(s.toLowerCase());   
       /*stm_comment: converting the string variable to lower case using toLowerCase method and printing out the result.*/
 
 
   }
 }
-
