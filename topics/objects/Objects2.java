@@ -3,6 +3,7 @@
  topics: Objects
  subtopics: Initalizing an object, accessing methods
  goalDescription: This program creates rectangle object and caluclates its area
+ source: ()
  output: Area : 10.0
 */
 public class Rectangle {
