@@ -1,12 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package javapedagogy;
+
 
 /**
- * @author(Hasan Mashrique)
+ * author: Hasan Mashrique
  * topic: Methods
  * subtopic: creating class objects, storing result in a variable, printing variable.
  * goalDescription: The program will create a method that will add two given exam numbers of a student. The program will declare a method
