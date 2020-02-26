@@ -19,6 +19,7 @@ public class BubbleSort {
         answer_1: The code block declares a method named Sorting() which is taking an array as parameter . It will take
         this array and sort it using bubble sort algorithm.	
         */
+        
     static void Sorting(int[] list) {
         int n = list.length;
         int temp = 0;
