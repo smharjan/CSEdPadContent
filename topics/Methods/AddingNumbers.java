@@ -1,15 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package javapedagogy;
+
 
 /**
- * @author(Hasan Mashrique)
+ * author: Hasan Mashrique
  * topic: Methods
- * subtopic: creating class objects, printing variable.
- * goalDescription(Declare a method that will add two integer values.)
+ * subtopic: creating class objects, storing result in a variable, printing variable.
+ * goalDescription: The program will create a method that will add two given exam numbers of a student. The program will declare a method
+ that will add those numbers, create object of the class, use that object to call the method and finally show the added exam numbers by printing it. 
  * source()
  */
 public class AddingNumbers {
@@ -50,7 +46,7 @@ public class AddingNumbers {
         */
         
         /**
-         * stm_comment: We create object of class AddingNumbers (addy).
+         * stm_comment: We create object of class AddingNumbers.
          */
         AddingNumbers addy = new AddingNumbers();
         
