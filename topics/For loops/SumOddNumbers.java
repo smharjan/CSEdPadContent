@@ -1,7 +1,7 @@
 /**
  author: Priti Oli
  topic: For Loops
- title: JSumOddNumbers
+ title: SumOddNumbers
  subTopic: getting familiar with the increment operator in for-loop
  goalDescription: this program sums up the odd number from 1 to 50 
  source: 
@@ -9,7 +9,7 @@
  
  */
  
-public class JSumOddNumbers {
+public class SumOddNumbers {
     public static void main(String args[]){
       		/*
 		logical_step_1: Declare a variable sum to store the sum of all the odd number
