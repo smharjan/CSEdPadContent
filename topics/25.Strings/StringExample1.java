@@ -1,10 +1,10 @@
 /**
- author (Jeevan Chapagain)
- topic (Strings)
- @title (StringExample1)
- @goalDescription (demonstrate working of String concatenation in java)
- @source ()
- @output (David Beckham)
+ author: Jeevan Chapagain
+ topic: Strings
+ title: StringExample1)
+ goalDescription: demonstrate working of String concatenation in java
+ source ()
+ output: David Beckham
 
 **/
 
@@ -12,36 +12,44 @@ class StringExample1 {
 
   public static void main(String[] args) {
      /*
-    logical_step_1: Declare a  string datatype
-    question_1: What is the data type of the variable s1 ?
-    answer_1: the data  type of the variable s is string.
-    question_2: How will you declare a string variable?
-    answer_2: we can declare string variable using the keyword string whose value must be surrounded by double quotes.
+    logical_step_1: Declare a  variables of string datatype
+    logical_step_details: Declare a variables first_name and last_name of string data type and assign some value to it. String must be surrounded by double quotes.
+    question_1: What does the following code block do?
+    answer_1: Declares two variables to store two different strings.
+    question_2: What variables are declared?
+    answer_2: Variables first_name and last_name are declared.
     */
 
 
-    String s1 = "David";  
-   /*stm_comment: declare a variable of type string using the keyword String.*/
+    String first_name = "David";  
+   /*stm_comment: declare a variable first_name of data type string using the keyword String.*/
    
 
-    String s2 = "Beckham";  
+    String last_name = "Beckham";  
+    /*stm_comment: declare a variable last_name of data type string using the keyword String.*/
+
 
    /*
-  question_1: what does the following code block do?
-  answer_1: The keyword concat will concat the variable s1 with variable s2 together such that two strings are linked together i.e. concatenated 
-  together such that it forms a new string. eg: David Beckham
-  question_2: what will be the result of s2.concat(s1)?
-  answer_2: The result of s2.concat(s1) will be Beckham David.
+   logical_step_1: Concatenates variable last_name with first_name and store the result in variable full_name of string data type.
+   logical_step_details: Declares a variable full_name which is used to store the result obtained after concatinating string variables first_name
+   and last_name.
+   question_1: What does the following code block do?
+   answer_1: The keyword concat will concat the variable s1 with variable s2 together such that two strings are linked together i.e. concatenated 
+   together such that it forms a new string.
+   question_2: What variables are declared?
+   answer_2: Variable full_name is declared.
+   question_3: How are the two strings concatenated?
+   answer_3: Two strings are concatenated using the method concat.
+
     */
 
-    String s3 = s1.concat(s2); 
+    String full_name = first_name.concat(last_name); 
+      /*stm_comment: concatinating string last_name with first_name and storing the vresult in string data type variable full_name.*/
 
-   /*
-  
-  question_1: what does the following code block do?
-  answer_1: It prints the result of the variable s3 where s1 and s2 are concatenatee sucha that s3 contains a value of David 
-  Beckham which will be printed.
-    */
-    System.out.println(s3); 
+
+    
+    System.out.println(full_name); 
+      /*stm_comment: printing out the result stored in string data type variable full_name.*/
+
   }
 }
