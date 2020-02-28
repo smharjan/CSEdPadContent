@@ -1,36 +1,51 @@
 /**
- @author(Priti Oli)
- @topic(Two Dimensional Array)
- @title(JIncrement)
- @goalDescription(Construct a program that multiplies two matrix )
- @source()
+ author: Priti Oli
+ topic: Two Dimensional Arrays
+ title: Multiply
+ subTopic: getting familiar with for loop
+ goalDescription: this program demonstrates the multiplication of two matrix using two dimensional array
+ source: 
+ output: 16    19    
+        36    43   
  */
-public class JMultiply {
+ 
+public class Multiply {
     public static void main(String[] args) {
-//        step 1: initialise the value of row and column for the two matrix
-//        r1,c1 denotes the row and column for matrix x
-//        r2,c2 denotes the row and column for matrix y
-        int r1 = 1, c1 = 3;
-        int r2 = 3, c2 = 1;
-//      step2:  initialise and assign the value of matrix x
-        int[][] x = { {1,2,3} };
-//        step 3: initialise and assign the value of matrix y
-        int[][] y = { {3}, {2}, {1} };
-//        initiase the matrix xy to store the result of the product of two matrix x and y
+        
+    /*stm_comment: assign values to variable x, y such that the two matrix can be multiplied */
+
+        int r1 = 2, c1 = 2;
+        int r2 = 2, c2 = 2;
+        int[][] x = { {1,2},{3,4} };
+        int[][] y = { {4,5}, {6,7} };
         int[][] xy = new int[r1][c2];
-//        step 4:iterate trough the rows of matrix x
+        
+        	/*
+        logical_step_1: Perform the necessary operations to multiply the two matrix 
+        question_1: What is the value of x[0][1]
+        answer_1: 2
+        question_2: What is the value of y[1][1]
+        answer_2: 7
+        question_3: What is the value of xy when x=1 and y=0
+        answer_3: 12
+        */
+        
         for(int i = 0; i < r1; i++) {
-//        step 5:iterate through the colum of matrix y
             for (int j = 0; j < c2; j++) {
-//        step 6: iterate through the column of matrix x or row of matrix y
                 for (int k = 0; k < c1; k++) {
-//        step 7: calculate the partial product and assignt the value to variable xy
                     xy[i][j] += x[i][k] * y[k][j];
                 }
             }
         }
+        
+        
+        	/*
+        logical_step_1: Dislay the result of the matrix operation
+        question_1: what is the output displayed in first iteration of outer look 'for(int[] row : xy) { ..... }'
+        answer_1: 16    19  
+        */
+        
 
-//        step 8: display the value of the product of the two matrix stored in the variable xy
         for(int[] row : xy) {
             for (int column : row) {
                 System.out.print(column + "    ");
