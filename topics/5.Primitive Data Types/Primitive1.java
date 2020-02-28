@@ -19,8 +19,6 @@ public class ByteDemo {
 		logical_step_1: Decalaring primitive data type.
 		question_1: what are the data types used in this code?
 		answer_1: byte, short and float are the data types used here.
-		question_2: what is the type of the data types used here?
-		answer_2: the used data types here are of integer types.
 		*/
 
 		byte num = 34;  

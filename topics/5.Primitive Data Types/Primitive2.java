@@ -18,8 +18,6 @@ public class BooleanDemo {
 		logical_step_1: Decalaring primitive data type.
 		question_1: what are the data types used in this code?
 		answer_1: boolean, float and String are the data types used here.
-		question_2: what is the type of the data types used here?
-		answer_2: the used data types here are of boolean, float and String.
 		*/
 
 		 boolean isGood = false; 
@@ -28,7 +26,7 @@ public class BooleanDemo {
 
 
 		 float num = 3.14f;
-		 /*stm_comment:  float data type is declared using float keyword wher value should end with 'f' and this data type can store fractional
+		 /*stm_comment:  float data type is declared using float keyword where value should end with 'f' and this data type can store fractional
 		 number*/
  
 
