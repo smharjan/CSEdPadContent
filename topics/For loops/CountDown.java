@@ -1,7 +1,7 @@
 /**
  author: Priti Oli
  topic: For Loops
- title: JCountDown
+ title: CountDown
  subTopic: getting familiar with for loop
  goalDescription: this program builds a counter in for loop that counts from 10 to 1 in decreasing manner
  source: 
@@ -18,7 +18,7 @@
  
  */
  
-public class JCountDown {
+public class CountDown {
     public static void main(String[] args) {
 		/*
 		logical_step_1: Declare a for loop by initialising the value of the variable counter 
