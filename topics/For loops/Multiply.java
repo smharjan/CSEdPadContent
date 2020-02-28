@@ -29,7 +29,7 @@ public class Multiply {
 		*/
         int var=6;
             		/*
-		logical_step_2: Declare a for loop by initialising the value of the iterator i to 1 
+		logical_step_2: Declare a for loop by initialising the value of the iterator i to 1 and iterate 10 times
 		question_1: What is the initial value of the iterator i?
 		answer_1: the initial value of the iterator is 1
 		question_2: What is the output when the value of i=3
