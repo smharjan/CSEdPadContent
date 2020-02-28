@@ -19,7 +19,7 @@ public class SumOddNumbers {
 		answer_2: The program will throw a compile time error
 		*/
         int sum=0;
-            		/*
+            	/*
 		logical_step_2: Declare a for loop by initialising the value of the iterator i to 1 
 		question_1: What is the initial value of the iterator i?
 		answer_1: the initial value of the iterator is 1
