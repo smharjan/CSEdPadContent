@@ -1,7 +1,7 @@
 /**
  author: Priti Oli
  topic: For Loops
- title: JMultiply
+ title: Multiply
  subTopic: getting familiar with for-loop in java
  goalDescription: this program outputs the multiplication table of 6
  source: 
@@ -18,7 +18,7 @@
  
  */
  
-public class JMultiply {
+public class Multiply {
     public static void main(String args[]){
       		/*
 		logical_step_1: Declare a variable var 
