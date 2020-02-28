@@ -1,6 +1,7 @@
 /**
  author: Priti Oli)
  topic: Logical Operator
+ subTopic: using logical operator with conditional/ternary operator 
  title: Leapyear
  goalDescription: this program checks whether a year is leap year or not
  source: 
