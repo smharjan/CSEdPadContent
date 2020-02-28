@@ -17,7 +17,7 @@ public class MaxNumber{
       int num1 = 40, num2 = 50, num3 = 10;
 
 		/*
-		logical_step_1: compute the largest number among the three numbers using if-else statement, airthmetic and logical operators
+		logical_step_1: compute the largest number among the three numbers using if-else condition, airthmetic and logical operators
 		question_1: What is the initial value of the variable counter?
 		answer_1: the initial value of the variable counter is 10
 		question_2: What will be the output of the program if num3 = 20
