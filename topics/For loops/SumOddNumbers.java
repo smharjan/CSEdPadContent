@@ -1,7 +1,7 @@
 /**
  author: Priti Oli
  topic: For Loops
- title: JSumOddNumbers
+ title: SumOddNumbers
  subTopic: getting familiar with the increment operator in for-loop
  goalDescription: this program sums up the odd number from 1 to 50 
  source: 
@@ -9,28 +9,31 @@
  
  */
  
-public class JSumOddNumbers {
+public class SumOddNumbers {
     public static void main(String args[]){
       		/*
 		logical_step_1: Declare a variable sum to store the sum of all the odd number
+		logical_step_details: initialise the value of variable sum to be 0
 		question_1: What is the value of the variable sum initially ?
-		answer_1: the initial value of the variable counter is 10
+		answer_1: the initial value of the variable sum is 0
 		question_2: What will happen if you do not initialise the value of the variable sum?
-		answer_2: The program will not be able to compile. 
+		answer_2: The program will throw a compile time error
 		*/
         int sum=0;
-            		/*
+            	/*
 		logical_step_2: Declare a for loop by initialising the value of the iterator i to 1 
-		question_1: What is the initial value of the iterator?
+		logical_step_details: use for loop to iterate over the odd numbers, the expression 'i+=2' itertes over 
+		odd number as the iterator starts from 1 and increases by 2 over each iteration.
+		question_1: What is the initial value of the iterator i?
 		answer_1: the initial value of the iterator is 1
 		question_2: What is the value of the variable sum when i=5
 		answer_2: The value of the variable sum=9, when i-5
-		question_3: What will be the output of the program if the value of the variable i is initialised to 0 '  ?
+		question_3: What will be the output of the program if the value of the variable i is initialised to 0  ?
 		answer_3: the program will output the sum of even number from 1 to50 instead of sum of odd number  from 1 to 50
-       	question_4: What will be the output of the program if the iterator i is incremnted by 5('i+=2' is replaced by 'i+=5')  ?
+       		question_4: What will be the output of the program if the iterator i is incremnted by 5('i+=2' is replaced by 'i+=5')  ?
 		answer_4: the program will output the sum of the number divisible by 5 in the range of 1 to 50 
 		*/
-        for(int i=0;i<=50;i+=2){
+        for(int i=1;i<=50;i+=2){
             sum=sum+i;
         }
         System.out.println(" the sum is:  " + sum);
