@@ -16,14 +16,17 @@
 public class BasicOperation {
 
     public static void main(String args[]) {
-		/* stm_comment: Declare the value of variables to perform logical operations */
+	/* stm_comment: Declare the value of variables to perform logical operations */
         boolean a = true;
         boolean b = false;
         int x=1011;
         int y=1010;
 
-        /* logical_step1: perform different logical operations 
-           System.out.println("a && b = " + (a&&b));
+        /* logical_step1: perform different logical operations and output the result
+	    logical_step_details: display the output of logical and (&&), logical or(||) and logical not(!) operation on 
+	    the boolean variable a and b . display the output of bitwise xor (^) , bitwise or(|) and bitwise and(&) 
+	    operation on the variable x and y.
+            System.out.println("a && b = " + (a&&b));
             question_1: what is the output displayed by 'System.out.println("!(a && b) = " + !(a && b));'
             answer 1: !(a && b) = true
             question_2: what is the output for 'System.out.println("a || b = " + (a||b) );' if  the value of a=false
