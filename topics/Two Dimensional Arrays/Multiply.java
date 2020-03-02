@@ -22,6 +22,10 @@ public class Multiply {
         
         	/*
         logical_step_1: Perform the necessary operations to multiply the two matrix 
+        logical_step_details: the netsed for-loop block below multiplies the two matrices. the 
+        outer-most  for-loop iterates over the row of the matrix x. the inner for-loop iterates over the column in matrix y.
+        the innermost for-loop iterates over column of  matrix  xand the multiplication for each element is performed in the
+        inner-most for-block
         question_1: What is the value of x[0][1]
         answer_1: 2
         question_2: What is the value of y[1][1]
@@ -40,7 +44,9 @@ public class Multiply {
         
         
         	/*
-        logical_step_1: Dislay the result of the matrix operation
+        logical_step_2: Dislay the result of the matrix operation
+        logical_step_details: display the result of the matrix multiplication by iterating over first over row and then over column 
+        of the matrix obtained after the multiplication of two matrix x and y
         question_1: what is the output displayed in first iteration of outer look 'for(int[] row : xy) { ..... }'
         answer_1: 16    19  
         */
