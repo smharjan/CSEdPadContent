@@ -21,15 +21,18 @@
 public class Multiply {
     public static void main(String args[]){
       		/*
-		logical_step_1: Declare a variable var 
+		logical_step_1: declare and initialise the value of variable , whose multipliation table is to be displayed
+		logical_step_details:  here , the multiplication table of 6 will be displayed
 		question_1: What is the value of the variable var  ?
 		answer_1: the value of the variable var is 6
 		question_2: What will be the output of the program if you initialise the value ot variable to 9 (replace 'int var=6;' with 'int var=9;')
 		answer_2: The program will output the multiplication table for 9
 		*/
-        int var=6;
+       		 int var=6;
             		/*
 		logical_step_2: Declare a for loop by initialising the value of the iterator i to 1 and iterate 10 times
+		logical_step_details: declares a for loop by initialising the value of the iterator i to 1 and iterate 10 times
+		to display the multiplication table of the variable var
 		question_1: What is the initial value of the iterator i?
 		answer_1: the initial value of the iterator is 1
 		question_2: What is the output when the value of i=3
