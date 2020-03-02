@@ -14,7 +14,7 @@ output I LOVE COMPUTER
    {
 
     /*
-    logical_step_1: Declare a variable of string datatype to store a string.
+    logical_step_1: Use string method to convert the given string into upper case and lower case.
     logical_step_details: Declarae a variable s which is used to store a string "I love computer".
     question_1: What does the following code block do?
     answer_1: Declares a variable of string data type to store string.

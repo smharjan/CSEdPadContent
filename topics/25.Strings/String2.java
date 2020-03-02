@@ -15,7 +15,7 @@ output: String length of s1 is 26
    public static void main(String[] args)
    {
       /*
-    logical_step_1: Declare a variables of string datatype
+    logical_step_1: Declare  variables of string datatype to calculate length of the characters in each string.
     logical_step_details: Declare a variables s1 and s2 of string data type and assign some value to it. String must be surrounded by double quotes.
     question_1: What does the following code block do?
     answer_1: Declares two variables needed to store two different strings

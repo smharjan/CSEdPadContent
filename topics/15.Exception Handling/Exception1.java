@@ -23,7 +23,7 @@ Public class Arithmetic{
    logical_step2: Declare variables need to store value for the division and declare anoter variable for the storing of the result.
    logical_step_details: Declare variables x and y with some value such that we can perform division of x by y and store the result in variable z.
    question_1: what does the following code block do?
-   answer_1:: Assigns some some value to variable x and y and store the result of their division in vairable z.
+   answer_1:: Assigns some some value to variable x and y and store the result of their division in vairable z and print out the result.
    question_2: what variables are declared?
    answer_2: variables x,y and z are declared.
    */

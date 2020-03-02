@@ -12,7 +12,7 @@ class StringExample1 {
 
   public static void main(String[] args) {
      /*
-    logical_step_1: Declare a  variables of string datatype
+    logical_step_1: Declare variables of string datatype to concatenate two strings.
     logical_step_details: Declare a variables first_name and last_name of string data type and assign some value to it. String must be surrounded by double quotes.
     question_1: What does the following code block do?
     answer_1: Declares two variables to store two different strings.
