@@ -15,8 +15,10 @@ public class Grades {
         int testscore = 90;
         char grade;
         
-        		/*
+        	/*
 		logical_step_1: Use if-else to assign a grade to a give testsocre
+		logical_step_details: if-else condition compares the testscore on different threshold value and assigns a grade
+		to the testscore based on the condition satisfied
 		question_1: What is the grade assigned to the testscore
 		answer_1: Grade A
 		question_2: What will be the value of variable grade if testscore=70
