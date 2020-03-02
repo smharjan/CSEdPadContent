@@ -11,7 +11,7 @@
  
 public class MovieRating {
     public static void main(String[] args){
-    /*stm_comment: store the value of movie ratings in a two dimensional array*/
+    	/*stm_comment: store the value of movie ratings in a two dimensional array*/
         int[][] movieRate = {
                 {4, 4, 5,3,4},
                 {3, 4, 4,2,3},
@@ -19,12 +19,14 @@ public class MovieRating {
                 {4, 4, 4,4,3}
         };
 
-    /*stm_comment: initialise the value of average and sum to be 0*/
+    	/*stm_comment: initialise the value of average and sum to be 0*/
         float avg =0;
         int sum=0;
         
-    		/*
-	logical_step_1: calculate the sum of the movie ratings for movie 2 
+    	/*
+	    logical_step_1: calculate the sum of the movie ratings for movie 2 
+	    logical_step_details: the for loop calculates the average movie rating for movie 2 by iterating over all 
+	    the movie ratings for movie 2
 	    question_1: what are the movie ratings for movie[2]
 	    answer1: 3, 4, 4,3,3
 	    question_2: what will be the sum of movie rating for movie 1
@@ -36,6 +38,8 @@ public class MovieRating {
         }
           		/*
 	    logical_step_2: calculate and display the average rating
+	    logical_step_details: calculate the average rating by dividing the sum of the ratings by the length of the rating.
+	    movieRate[2].length gives the length of the movie ratings for movie 2 (5)
 	    question_1: what is the average rating for movie[2]
 	    answer1: 3.4
 	    question_2: what is the value of movieRate[2].length
