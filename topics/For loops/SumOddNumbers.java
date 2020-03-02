@@ -13,6 +13,7 @@ public class SumOddNumbers {
     public static void main(String args[]){
       		/*
 		logical_step_1: Declare a variable sum to store the sum of all the odd number
+		logical_step_details: initialise the value of variable sum to be 0
 		question_1: What is the value of the variable sum initially ?
 		answer_1: the initial value of the variable sum is 0
 		question_2: What will happen if you do not initialise the value of the variable sum?
@@ -21,6 +22,8 @@ public class SumOddNumbers {
         int sum=0;
             	/*
 		logical_step_2: Declare a for loop by initialising the value of the iterator i to 1 
+		logical_step_details: use for loop to iterate over the odd numbers, the expression 'i+=2' itertes over 
+		odd number as the iterator starts from 1 and increases by 2 over each iteration.
 		question_1: What is the initial value of the iterator i?
 		answer_1: the initial value of the iterator is 1
 		question_2: What is the value of the variable sum when i=5
