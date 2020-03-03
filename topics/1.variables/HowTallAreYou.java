@@ -2,6 +2,7 @@
  * author: Kamil Akhuseyinoglu
  * topics: Variables, Expressions, Constants
  * subtopics: declaring and using constant variables in arithmetic expression and printing with printf
+ * title: How tall are you in meters?
  * goalDescription: Construct a program that converts the height in feet stored in variable heightInFeet to 
  *                  meters using the constant feet to meter conversion rate 0.30479 and print the height in meters with 3 digits after the decimal point to the console.
  * source: CS007 Lab1 partial content
