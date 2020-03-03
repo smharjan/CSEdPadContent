@@ -51,7 +51,7 @@ public class Main {
   wishList.add("umbrella");
 
   /*
-  	logical_step_2: Displays wishlist
+  	logical_step_3: Displays wishlist
   	logical_step_details: Itreates thorugh each item of wishlist and displays them
   	question_1: What does the following code block do?
   	answer_1: Displays wishlist
