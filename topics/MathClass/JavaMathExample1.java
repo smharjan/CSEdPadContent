@@ -1,47 +1,77 @@
-/*
-author: Zeyad Alshaikh
-topics: Math class
-subtopics: using Math.max, Math.sqrt, Math.pow, Math.log, Math.log10, Math.log1p,Math.exp and Math.expm1
-goalDescription: This program demonstrates how to use Math class.
-source: https://www.javatpoint.com/java-math
-output:Maximum number of x and y is: 28.0
-Power of x and y is: 614656.0
-Logarithm of x is: 3.332204510175204
-log10 of x is: 1.4471580313422192
-log1p of x is: 3.367295829986474
-exp of x is: 1.446257064291475E12
-expm1 of x is: 1.446257064290475E12
+/**
+ author: Zeyad Alshaikh
+ topics: Math class
+ subtopics: using Math.sqrt, Math.pow, Math.PI, Math.acos
+ goalDescription: Construct a program that finds the length of hypotenuse in of a right triangle by using Pythagoras theorem then finds the angles of that triangle.
+ source: http://javauk.blogspot.com/2013/07/java-hypotenuse-right-triangle.html
+ output: The length of the hypotenuse (c) is: 10.0
+Angles are A = 36.86989764584401, B = 53.13010235415598, C = 90
 */
+public class MathExample1{
 
-public class JavaMathExample1
-{
-    public static void main(String[] args)
-    {
-        double x = 28;
-        double y = 4;
+public static void main (String[]args)
+  {
 
-        /*@stm_comment: Math.max(x,y) return the maximum of x and y */
-        System.out.println("Maximum number of x and y is: " +Math.max(x,y));
+    /*
+       logical_step_1: Declare double variables called a, b, and c to represent each side of the triangle and assign a to 6 and b to 8.
+       logical_step_details: First we declare double variables a and b and a value to it. We also declare another a double variable c to hold the length of hypotenuse.
+       question_1: What does the following code block do?
+       answer_1: Declare double variables called a, b, and c to represent each side of the triangle and assign a to 6 and b to 8.
+       question_2: What variables are declared?
+       answer_2: Three double variables a, b, and c  are declared.
+       question_3: What are the values of each variable?
+       answer_3: The value of a is 6, b is 8 and c is 0.0d
+     */
 
-        /*@stm_comment: Math.sqrt(y) returns the square root of y* /
-        System.out.println("Square root of y is: " + Math.sqrt(y));
+    double a = 6, b = 8, c;
 
-        /*@stm_comment: Math.pow(x, y) returns the power of x to y */
-        System.out.println("Power of x and y is: " + Math.pow(x,y));
+    /*
+       logical_step_2: Calculate the length of the hypotenuse (c) by using Pythagoras theorem.
+       logical_step_details: calculate the length of the hypotenuse (c) by using Math.sqrt and Math.pow functions.
+       question_1:What does the following code block do?
+       answer_1: Calculate the length of the hypotenuse (c) by using Pythagoras theorem where c = squar root of power 2 of a plus the power 2 of b.
+       question_2: What the value of c?
+       answer_2: 10
+     */
+      c = Math.sqrt (Math.pow (a, 2) + Math.pow (b, 2));
 
-        /*@stm_comment: Math.log(x) returns the natural logarithm of x */
-        System.out.println("Logarithm of x is: " + Math.log(x));
+    /*
+       logical_step_3: Declare two double variables A and B and assign it the calculated value the angles of the right triangle.
+       logical_step_details: First, find the angle A by applying the arc cosine to the formula (b * b + c * c - a * a) / (2 * b * c).
+       Then convert to convert into degrees by multiply it by 180 and devide it by PI.
+       After that, find the angle B by applying the arc cosine to the formula (a * a + c * c - b * b) / (2 * a * c) .
+       Then convert to convert into degrees by multiply it by 180 and devide it by PI.
+       question_1: What does the following code block do?
+       answer_1: First, find the angle A by applying the arc cosine to the formula (b * b + c * c - a * a) / (2 * b * c).
+       Then convert to convert into degrees by multiply it by 180 and devide it by PI.
+       After that, find the angle B by applying the arc cosine to the formula (a * a + c * c - b * b) / (2 * a * c) .
+       Then convert to convert into degrees by multiply it by 180 and devide it by PI.
+       question_2: What the value of A?
+       answer_2: 36.86
+       question_3: What the value of B?
+       answer_3: 53.13
+     */
 
-        /*@stm_comment: Math.log10(x) returns the base 10 logarithm of x */
-        System.out.println("log10 of x is: " + Math.log10(x));
+    double A = Math.acos ((b * b + c * c - a * a) / (2 * b * c));
+      A = (A * 180) / Math.PI;
 
-        /*@stm_comment: Math.log1p(x) returns the natural logarithm of 1+x */
-        System.out.println("log1p of x is: " +Math.log1p(x));
+    double B = Math.acos ((a * a + c * c - b * b) / (2 * a * c));
+      B = (B * 180) / Math.PI;
 
-        /*@stm_comment: Math.exp(x) returns e (the base of the natural logarithms) to the power of x */
-        System.out.println("exp of a is: " +Math.exp(x));
+    /*
+       logical_step_4: Print the length of the hypotenuse (c) and the angles of A and B.
+       logical_step_details: First, it print the length of hypotenuse (c) then it print the angles of A and B in new line.
+       question_1: question_1: What does the following code block do?
+       answer_1: First, it print the length of hypotenuse (c) then print the angles of A and B in new line.
+       question_2: what the ouput of the following block?
+       answer_2:The length of the hypotenuse (c) is: 10.0
+       Angles are A = 36.86989764584401, B = 53.13010235415598, C = 90
+     */
 
-        /*@stm_comment: Math.expm1(x) returns e (the base of the natural logarithms) to the power of (x-1) */
-        System.out.println("expm1 of x is: " +Math.expm1(x));
-    }
+      System.out.println ("The length of the hypotenuse (c) is: " + c);
+      System.out.println ("Angles are A = " + A + ", B = " + B + ", C = " +
+			  90);
+
+  }
+
 }
