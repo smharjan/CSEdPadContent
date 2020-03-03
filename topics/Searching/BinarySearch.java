@@ -14,6 +14,7 @@ public class BinarySearch {
 
       /*
       logical_step_1: while condition
+      logical_step_details: while condition is used and operates unless the value of variable "first" is lesser or equal to the value of the variable "last" otherwise it does not enter while loop 
       question_1: Why while condition?
       answer_1: To check the value of first is lesser or equal to the last value
       question_2: Why if condition?
@@ -58,7 +59,8 @@ public class BinarySearch {
    public static void main(String a[]) {
 
       /*
-      logical_step_2: Create and array of elements
+      logical_step_2: Create an array of elements
+      logical_step_details: Creating an array that will store elements that are sorted in ascending order and which whose array length is 6 but the indexing of an araay start with 0 so the last index of the element here is 5.
       question_5: What is an array?
       answer_5: Array is simply a data structure consisting of a collection of elements
       question_6: Why we need the length of an array?
@@ -67,13 +69,14 @@ public class BinarySearch {
       int[] array = { 10, 20, 30, 40, 50, 60 };
 
       /*stm_comment: assigns the value for the variable element */
-      int element = 50;
+      int element = 0;
 
       /*stm_comment: valur of the variable last equals to the length of the array -1 */
       int last=array.length-1;
 
       /*
-      logical_step_3: Calling the method binarySearch
+      logical_step_3: Call the method binarySearch
+      logical_step_details: Calling the binarySearch method to search for the value of the variable "element" i.e., 50, so if 50 is present in the array it will return the index of the array, it send "-1" if the searched element is not present on the array
       question_7: Why are we calling the method binarySearch?
       answer_7: The method binarySearch is already defined and follows the Bineary Search algorithm to search for the particular element in the array and which will also return the index of that searched element if present
       question_8: Why "if" and "else" condition after the call of the method binarySearch?
