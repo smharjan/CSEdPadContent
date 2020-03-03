@@ -34,12 +34,16 @@ public class RecursiveFibonacci{
     logical_step_1: the recursion base case is whenever n is either 1 or 2, where the result of fib() is 1, which is the returned value of the function
     question_1: what case for recursive algorithms is this if statement representing?
     answer_1: the base case
+    question_2: when does the base case happen here
+    answer_2: whenever n is either 1 or 2
     */
     if(n<=2) return 1;
      /*
     logical_step_2: whenever n is different than 1 or 2, recursively calls fib() of n-1 and fib() of n-2 in order to return the sum of both values
     question_1: what case for recursive algorithms is this if statement representing?
     answer_1: the recursive call case
+    question_2: when is the the recursive call triggered
+    answer_2: whenever n is greater 2
     */
     else return fib(n-1) + fib(n-2);
   }
