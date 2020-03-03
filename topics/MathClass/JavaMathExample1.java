@@ -9,7 +9,7 @@ Angles are A = 36.86989764584401, B = 53.13010235415598, C = 90
 */
 public class MathExample1{
 
-public static void main (String[]args)
+  public static void main (String[]args)
   {
 
     /*
@@ -23,6 +23,7 @@ public static void main (String[]args)
        answer_3: The value of a is 6, b is 8 and c is 0.0d
      */
 
+    /*stmt_comment: initialize the variables a to 6, b to 8 and c to 0.0d */
     double a = 6, b = 8, c;
 
     /*
@@ -33,6 +34,7 @@ public static void main (String[]args)
        question_2: What the value of c?
        answer_2: 10
      */
+    /*stmt_comment: Assing the result from Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2)) to c */
       c = Math.sqrt (Math.pow (a, 2) + Math.pow (b, 2));
 
     /*
@@ -51,11 +53,14 @@ public static void main (String[]args)
        question_3: What the value of B?
        answer_3: 53.13
      */
-
+    /*stmt_comment: initialize the variables A to the value of Math.acos((b * b + c * c - a * a) / (2 * b * c)) */
     double A = Math.acos ((b * b + c * c - a * a) / (2 * b * c));
+    /*stmt_comment: Assing the variable A to the value of (A * 180) / Math.PI */
       A = (A * 180) / Math.PI;
 
+    /*stmt_comment: initialize the variables B to the value of Math.acos((a * a + c * c - b * b) / (2 * a * c)) */
     double B = Math.acos ((a * a + c * c - b * b) / (2 * a * c));
+    /*stmt_comment: Assing the variable B to the value of (B * 180) / Math.PI */
       B = (B * 180) / Math.PI;
 
     /*
@@ -68,7 +73,9 @@ public static void main (String[]args)
        Angles are A = 36.86989764584401, B = 53.13010235415598, C = 90
      */
 
+    /*stmt_comment: Print The length of the hypotenuse (c) is: the value of the c variable */
       System.out.println ("The length of the hypotenuse (c) is: " + c);
+    /*stmt_comment: Print TAngles are A =  the value of the A variable, B = the value of the B variable, C = 90 */
       System.out.println ("Angles are A = " + A + ", B = " + B + ", C = " +
 			  90);
 
