@@ -16,7 +16,8 @@ class InputType3 {
         
         /*
         logical_step_1: Create a new Scanner object to get the input from the user 
-        question_1: What is purpose creating the object "myObj" of Scanner?
+        logical_step_details: Creating a new Scaaner object "myObj" which will extend the methods of Scanner and here we use this Scanner object to store the input of the user to a variable 
+        question_1: What is purpose creating the objecy "myObj" of Scanner?
         answer_1: myObj will help in getting the user inputs
         */
 
@@ -24,7 +25,8 @@ class InputType3 {
         Scanner myObj = new Scanner(System.in);
 
         /*
-        logical_step_2: Prompt user to input their name, age and salary 
+        logical_step_2: Prompt user to input their name, age and salary
+        logical_step_details: Prompts or asks user to type in their name, age, and salary, here the name can only be string, and for age is integer variable and for salary it take the type double
         question_2: Why prompt user for input?
         answer_2: To get the user inputs to provide in their name, age and salary
         question_3: What type of variable is name?
@@ -49,6 +51,7 @@ class InputType3 {
         
         /*
         logical_step_3: Prompt user to input True or False for the given question
+        logical_step_details: Prompts or asks user to type in "True" or "False" and it takes input from user either "True" or "False" nothing other than that as it is store on the variable which is boolean
         question_6: What type of variable is bn?
         answer_6: bn is boolean which takes only true or false as input
         */
