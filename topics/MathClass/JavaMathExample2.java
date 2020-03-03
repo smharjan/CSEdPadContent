@@ -20,6 +20,7 @@ public class MathExample2{
        question_2: What the value of radius?
        answer_2: 3
      */
+     /*stmt_comment: initialize the variable radius to 3 */
     double radius = 3;
 
     /*
@@ -32,8 +33,9 @@ public class MathExample2{
        question_2: what are the values of area and circumference?
        answer_2: 28.27 and  18.84
      */
+     /*stmt_comment: initialize the variable area to the value of Math.PI * (radius * radius) */
     double area = Math.PI * (radius * radius);
-
+    /*stmt_comment: initialize the variable circumference to the value of Math.PI * 2 * radius */
     double circumference = Math.PI * 2 * radius;
     /*
        logical_step_3: Print the area and circumference of the circle.
@@ -44,7 +46,11 @@ public class MathExample2{
        answer_2: The area of circle is: 28.274333882308138
        The circumference of the circle is:18.84955592153876
      */
+
+     /*stmt_comment: Print The area of circle is: the value of the area variable */
       System.out.println ("The area of circle is: " + area);
+
+      /*stmt_comment: Print The circumference of the circle is: the value of the circumference variable */
       System.out.println ("The circumference of the circle is:" +
 			  circumference);
 
