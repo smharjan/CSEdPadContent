@@ -1,33 +1,64 @@
 /**
- @author (Lasang Tamang)
- @topic (Arrays Lists)
- @title (ArrayList.Ex2)
- @goalDescription (demonstrate working of ArrayList in java)
- @source (https://www.geeksforgeeks.org/arraylist-in-java/)
- @output (0 10 2 3 5)
- @question("1. What is the output of the code? 2. What is the value of myNum before line 22 is executed?
- 3. What is the value of myNum after line 22 is executed? 4. What is the value of myNum when line 26 is executed?)
+ 
+ author: Lasang Tamang
+ topics: ArrayList
+ subtopics:  Create arraylist, add element to arraylist, modify, remove elements from ArrayList
+ goalDescription: This progom shows a person's orginal travel list and creating new travel list from orginal and making some changes on new travellist.
+ source: 
+ output:iphone 11
+apple watch
+umbrella
 */
-import java.util.*;
-public class ArrayListEx2 {
-    public static void main(String[] args) {
-        // Step 1: create an array list
-        ArrayList < Integer > myNum = new ArrayList < > ();
+import java.util.*; 
+import java.util.ArrayList; 
 
-        // step 2: add elements to the array list
-        for (int i = 0; i < 6; i++) {
-            myNum.add(i);
-        }
+public class Main {
+	public static void main(String[] args) {
+		/*
+    logical_step_1: Initalzes an arraylist wishList with first 3 items
+    logical_step_details: Creates and initialzes an arraylist wishList which element are of type string and add iphone 10, apple watch and go pro
+    question_1: What does the following code block do?
+    answer_1: Initalzes an arraylist wishList with first 3 items
+    question_2: What is the type of element of travelList?
+    answer_2: String
+    question_3: What element are added to travelList ?
+    answer_3: iphone 10, apple watch and go pro	
+ */
+		
+                          
+    ArrayList<String> wishList = new ArrayList<String>() { 
+            { 
+                add("iphone 10"); 
+                add("apple watch"); 
+                add("go pro"); 
+            } 
+        }; 
+	
+	/*
+  	logical_step_2: Modifies wish list
+  	logical_step_details: Modies iphone 1o to iphone 11, removes go pro and add umbrella
+  	question_1: What does the following code block do?
+  	answer_1:  Modifies wish list
+  	question_2: What item is modifeid to what?
+  	answer_2: iphone 11 is modifed to iphone 11
+  	question_3:waht item is removed ?
+  	answer_3: apple watch.
+  	question_3:waht item is added ?
+  	answer_3: go pro
+  	*/
+  	    wishList.set(0,"iphone 11");
+	    wishList.remove("go pro");
+	    wishList.add("umbrella");
+	    
+	    /*
+  	logical_step_2: Displays wishlist
+  	logical_step_details: Itreates thorugh each item of wishlist and displays them
+  	question_1: What does the following code block do?
+  	answer_1: Displays wishlist
+  	*/
+	    for(String item:wishList)
+         System.out.println(item);
+	   
 
-        // step 3: Modify the element add index 2
-        myNum.set(1, 10);
-
-        // step 4: Remove element at index 4
-        myNum.remove(4);
-
-        // step 5 Printing elements one by one 
-        for (int i = 0; i < myNum.size(); i++) {
-            System.out.print(myNum.get(i) + " ");
-        }
-    }
+	}
 }
