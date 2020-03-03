@@ -17,7 +17,8 @@ public class InputType4
     { 
 
         /*
-        logical_step_1: Create a new Scanner object to get the input from the user 
+        logical_step_1: Create a new Scanner object to get the input from the user
+        logical_step_details: Creating a new Scaaner object "myObj" which will extend the methods of Scanner and here we use this Scanner object to store the input of the user to a variable 
         question_1: What is purpose creating the objecy "myObj" of Scanner?
         answer_1: myObj will help in getting the user inputs
         */
@@ -27,6 +28,7 @@ public class InputType4
 
         /*
         logical_step_2: Prompt user to input their name, gender and mobileNo 
+        logical_step_details: Prompts or asks user to type in their name, gender, and mobileNo, here the name can only be string, and for gender it store just the first character only and for mobileNo it take the type long
         question_2: Why prompt user for input?
         answer_2: To get the user inputs to provide in their name, gender and mobileNo
         question_3: What type of variable is name?
@@ -34,7 +36,7 @@ public class InputType4
         question_4: What type of variable is gender?
         answer_4: gender is a character
         question_5: What type of variable is mobileNo?
-        answer_5:  mobileNo is a double
+        answer_5:  mobileNo is a long
         */
 
         /*stm_comment: Prompt user for inputs*/
