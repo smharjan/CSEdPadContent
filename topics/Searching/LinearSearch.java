@@ -10,7 +10,8 @@ public class LinearSearch {
    public static void main(String args[]){
 
       /*
-      logical_step_1: Create and array of elements
+      logical_step_1: Create an array of elements
+      logical_step_details: Creating an array that will store elements that are sorted in ascending order and which whose array length is 6 but the indexing of an araay start with 0 so the last index of the element here is 5.
       question_1: What is an array?
       answer_1: Array is simply a data structure consisting of a collection of elements
       question_2: Why we need the length of an array?
@@ -24,6 +25,7 @@ public class LinearSearch {
 
       /*
       logical_step_2: For loop to compare each element of array with the variable val
+      logical_step_details: For loop is used here to iterate over all the elements present in the array and goes each and every element of the array one by one in increasing order of the array indices to search the value "63" and when it finds out the searched element is also present in the array it gives the index of that element 
       question_3: What is the purpose of comparing each and every element of array with the variable val? 
       answer_3: To get the index of the element that we are searching for in the array
       */
