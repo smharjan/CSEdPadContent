@@ -30,7 +30,7 @@ class Main {
   travelList.add("Bhutan");
 
   /*
-  	logical_step_1: Creates list newTravelList from orginal Travel list travelList
+  	logical_step_2: Creates list newTravelList from orginal Travel list travelList
   	logical_step_details: Creates an arraylist newTravelList for holding new travel which element type are of string list and add 4 countries from traveList
   	question_1: What does the following code block do?
   	answer_1: Creates list newTravelList from orginal Travel list newTravelList
@@ -45,7 +45,7 @@ class Main {
   }
 
   /*
-  	logical_step_1: Removes elememnts from newTravelList and print value of newTravelList 
+  	logical_step_3: Removes elememnts from newTravelList and print value of newTravelList 
   	logical_step_details: Removes china from from newTravelList and remove element at 0
   	question_1: What does the following code block do?
   	answer_1:  Removes elememnts from newTravelList and print value of newTravelList 
