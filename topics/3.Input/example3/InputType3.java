@@ -16,7 +16,7 @@ class InputType3 {
         
         /*
         logical_step_1: Create a new Scanner object to get the input from the user 
-        question_1: What is purpose creating the objecy "myObj" of Scanner?
+        question_1: What is purpose creating the object "myObj" of Scanner?
         answer_1: myObj will help in getting the user inputs
         */
 
