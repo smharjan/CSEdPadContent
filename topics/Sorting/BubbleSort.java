@@ -6,13 +6,15 @@ package javapedagogy;
   topic: Sorting
   subtopic: methods, array declaration, printing array.
   goalDescription: Sort a given unsorted array using bubble sort in ascending order.
-  source()
+  source:
+  Input: 2 5 -2 6 -3 8 0 -7 -9 4 
+  Output: -9 -7 -3 -2 0 2 4 5 6 8 
  */
 
 public class BubbleSort {
 
         /*
-		logical_step_4: Declare static method Sorting() which will sort a given unsorted array.
+		logical_step_4: Declare static method Sorting() which will sort a given unsorted array in ascending order.
         logical_step_details: Declare a method named Sorting and give an array as its parameter because it will take an
         array and sort it.  
 		question_1: What does the following code block do?
@@ -81,7 +83,7 @@ public class BubbleSort {
           /*
 		logical_step_3: Call the Sorting method and pass the array as a parameter.
         logical_step_details: call the static Sorting method and pass the array as parameter which will sort the
-        unsorted array by using bubble sort.   
+        unsorted array in ascending order by using bubble sort.   
 		question_1: What does the following code block do?
 		answer_1: It calls the Sorting methods to sort the unsorted array.
 		question_2: What is sent as a parameter?

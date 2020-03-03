@@ -1,12 +1,13 @@
 
 
 /**
- * author: Hasan Mashrique
- * topic: Methods
- * subtopic: creating class objects, storing result in a variable, printing variable.
- * goalDescription: The program will create a method that will add two given exam numbers of a student. The program will declare a method
+ author: Hasan Mashrique
+ topic: Methods
+ subtopic: creating class objects, storing result in a variable, printing variable.
+ goalDescription: The program will create a method that will add two given exam numbers of a student. The program will declare a method
  that will add those numbers, create object of the class, use that object to call the method and finally show the added exam numbers by printing it. 
- * source()
+ source:
+ output: 13
  */
 public class AddingNumbers {
 

@@ -1,12 +1,12 @@
 //package javapedagogy;
 
 /**
- @author : Hasan Mashrique
- @topics : DoWhile
- @subtopics: declaring variables, Assigning variable value, printing variable using DoWhile loop.
- @goalDescription:This program demonstrates how to declare a variable, assign a value to it and print its value using DoWhile
- @source: Here we keep the URL if there exist any source 
- @output : 4
+ author : Hasan Mashrique
+ topics : DoWhile
+ subtopics: declaring variables, Assigning variable value, printing variable using DoWhile loop.
+ goalDescription:This program demonstrates how to declare a variable, assign a value to it and print its value using DoWhile
+ source: Here we keep the URL if there exist any source 
+ output : 4
 */
 
 public class DoWhile {
