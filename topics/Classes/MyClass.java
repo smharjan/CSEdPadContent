@@ -9,6 +9,7 @@ public class MyClass {
 
 	/*
     logical_step_1: Declare an integer variable x
+    logical_step_details: Declaring a variable which is of type integer and which will store the value 5
     question_1: What is the value of the variable x?
     answer_1: The value of the variable x is 5
     question_2: What is static method?
