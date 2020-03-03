@@ -3,7 +3,7 @@
  author: Lasang Tamang
  topics: ArrayList
  subtopics:  Create arraylist, add element to arraylist, modify, remove elements from ArrayList
- goalDescription: This progom shows a person's orginal travel list and creating new travel list from orginal and making some changes on new travellist.
+ goalDescription: This progom creates wish list and edit thems.
  source: 
  output:iphone 11
 apple watch
