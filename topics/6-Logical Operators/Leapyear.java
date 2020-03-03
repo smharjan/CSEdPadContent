@@ -22,7 +22,7 @@ public class Leapyear {
 		store the result in variable leapYear.
 		question_1: What is the initial value of the variable leapYear?
 		answer_1: the value of the variable leapYear is 'It's a leap Year'
-		question_2: What is the value of the variable leapyear if year=2021
+		question_2: What is the value of the variable leapYear if year=2021
 		answer_2: The value of the variable leapyear will be 'Not a Leap year!'
 		
 	*/
