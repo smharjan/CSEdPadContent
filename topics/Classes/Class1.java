@@ -8,7 +8,8 @@
 public class Class1 {
 
 	/*
-    logical_step_1: Declare an integer variable x
+    logical_step_1: Declare a variable to store 5 as its value
+	logical_step_details: Declaring a integer variable that will store 5 as its value
     question_1: What is the value of the variable x?
     answer_1: The value of the variable x is 5
     */
@@ -20,6 +21,7 @@ public class Class1 {
   		
 	  	/*
 	  	logical_step_2: Create an object of Class1, we need to specify the class name, followed by the object name, and use the keyword new
+    	logical_step_details: Creating a object of class i.e., Class1 and in order to create the object of that class we need the class name at front then the object name where we have 2 objects of that class i.e., newObj1 and newObj2. And also we need to use the keyword "new" 
     	question_2: What is the purpose of newObj1?
     	answer_2: newObj1 has a state and behavior of Class1
     	question_3: What is the purpose of newObj2?
@@ -34,6 +36,7 @@ public class Class1 {
 
 	    /*
 		logical_step_3: Call a variable of Class1 and print it
+		logical_stop_details: Calls a variable of Class1, here that variable is "x" and the value of that variable "x" is printed out as the output of this program by both the objects of Class1 
 		question_4: What variable newObj1 calls?
 		answer_4: newObj1 calls variable x and prints 5
 		question_5: What variable newObj2 calls?
